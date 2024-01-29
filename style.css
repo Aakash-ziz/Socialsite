@@ -4,9 +4,8 @@ body{
     background-color:hsl(0, 0%, 8%) ; 
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 100%;
-
+    align-items: center;
+    height: 100dvh;
 }
 /* .outer_container{
     display: flex;
@@ -83,4 +82,10 @@ body{
    border: none;
    height: 45px;
    border-radius:6px;
+}
+
+/* button-active*/
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
