@@ -87,7 +87,7 @@ body{
 
 
 /* button*/
-button:hover{
+.button:hover{
     background-color: hsl(75, 94%, 57%);
     color: black;
 }
